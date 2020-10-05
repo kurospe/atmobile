@@ -11,7 +11,7 @@ exports.config = {
     Appium: {
       app: 'apk/pos-rewash.apk',
       appPackage: 'spe.pos.rewash',
-      appActivity: 'spe.pos.rewash.feature.login.loginActivity',
+      appActivity: 'spe.pos.rewash.feature.login.LoginActivity',
       platform: 'Android',
       device: 'Android Emulator',
       automationName: 'UiAutomator2'
